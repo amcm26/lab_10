@@ -5,8 +5,8 @@
 // Trie structure
 struct Trie
 {    
-    int count;
-	struct Trie* next[26];
+int count;
+struct Trie* next[26];
 };
 // Initializes a trie structure
 struct Trie* createTrie()
